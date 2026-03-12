@@ -63,7 +63,7 @@ services:
     depends_on:
       - backend
     ports:
-      - "80:80"
+      - "8081:80"
     # We remove explicit API mapping since it's hardcoded to /api/ in the Nginx conf now.
 
 volumes:
